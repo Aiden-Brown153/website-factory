@@ -1,0 +1,30 @@
+[
+  {
+    "name": "TechFlow",
+    "type": "landing",
+    "tagline": "Ship software 10x faster with AI-powered workflows",
+    "colors": "blue",
+    "industry": "tech"
+  },
+  {
+    "name": "BakersHouse",
+    "type": "blog",
+    "tagline": "Artisan bread, honest ingredients, baked with love",
+    "colors": "orange",
+    "industry": "food"
+  },
+  {
+    "name": "SaltWater Boards",
+    "type": "ecommerce",
+    "tagline": "Premium surf gear for serious wave riders",
+    "colors": "blue",
+    "industry": "retail"
+  },
+  {
+    "name": "Apex Creative",
+    "type": "business",
+    "tagline": "Brand strategy and design for ambitious companies",
+    "colors": "purple",
+    "industry": "creative"
+  }
+]

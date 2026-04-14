@@ -1,0 +1,20 @@
+{
+  "PostFileWrite": [
+    {
+      "matcher": "output/**/*.html",
+      "command": "npx html-validate $FILE && echo '✅ HTML valid: $FILE' || echo '⚠️  HTML issues in $FILE — Claude will fix them'"
+    }
+  ],
+  "PostToolUse": [
+    {
+      "matcher": "Bash(vercel deploy*)",
+      "command": "echo '🚀 Deploy complete — checking live URL...'"
+    }
+  ],
+  "PreToolUse": [
+    {
+      "matcher": "Write(**/index.html)",
+      "command": "echo '📝 Writing site HTML...'"
+    }
+  ]
+}
